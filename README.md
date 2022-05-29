@@ -31,16 +31,16 @@ Fingerprinting SSH key:
 $ ssh-keygen -lf ~/.ssh/id_ed25519.pub
 ```
 
-## List of my public keys
+Sending the key to remote server:
+
+```bash
+$ ssh-copy-id bart@remote-server.org
+```
 
 ## Keys random art:
 
-bart@t20
+The key's randomart image for `bart@t20` is:
 
-The key fingerprint is:
-SHA256:ii8ke6xz2OkiyjDPURqbk+Ar5Y/UvgZ47C9+JwuqDno bart@t20
-
-The key's randomart image is:
 ```
 +--[ED25519 256]--+
 |                 |
