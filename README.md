@@ -6,8 +6,8 @@ This GitHub repository contains my public SSH keys, currently in use.
 
 | Account | Key file | Fingerprint |
 | ------- | -------- | ----------- |
-| bart@t20 | t20-bart-ed25519.pub | 256 SHA256:ii8ke6xz2OkiyjDPURqbk+Ar5Y/UvgZ47C9+JwuqDno bart@t20 (ED25519) |
-| bart@xxx | zzzz.pub | no-finger-print-yet |
+| bart@t20 | bart-t20.pub | 256 SHA256:ii8ke6xz2OkiyjDPURqbk+Ar5Y/UvgZ47C9+JwuqDno bart@t20 (ED25519) |
+| bart@paris | bart-paris.pub | 256 SHA256:H9IHKkmJA/nsIBFUBbospEjQrXiV4qGhqDbFcEcbRcg bart@paris (ED25519) |
 
 ## Why
 
@@ -52,5 +52,21 @@ The key's randomart image for `bart@t20` is:
 |+*XOo..          |
 |B*E*@..          |
 |XB*&B*.          |
++----[SHA256]-----+
+```
+
+The key's randomart image for `bart@paris` is:
+
+```
++--[ED25519 256]--+
+|++o===+o         |
+|+.*o+Eo.         |
+|oX+B+.o   .      |
+|% *ooo . o .     |
+|==.o  o S o .    |
+|oo  .  . o o     |
+|. .       .      |
+|                 |
+|                 |
 +----[SHA256]-----+
 ```
