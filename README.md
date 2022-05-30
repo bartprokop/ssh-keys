@@ -7,6 +7,7 @@ This GitHub repository contains my public SSH keys, currently in use.
 | Account    | Key file       | Fingerprint                                                                 |
 | ---------- | -------------- | --------------------------------------------------------------------------- |
 | bart@e7250 | bart-e7250.pub | 256 SHA256:bJt9eJnLmiZwApHjysqkRWs41Csn8FZ9xvExAKsf4lQ bart@e7250 (ED25519) |
+| bart@gcs   | bart-gcs.pub   | 256 SHA256:1y3e7tFhHGf71f7OgVoxT74CbT5GMd52wyw22eQ++QM bart@gcs (ED25519)   |
 | bart@paris | bart-paris.pub | 256 SHA256:H9IHKkmJA/nsIBFUBbospEjQrXiV4qGhqDbFcEcbRcg bart@paris (ED25519) |
 | bart@t20   | bart-t20.pub   | 256 SHA256:ii8ke6xz2OkiyjDPURqbk+Ar5Y/UvgZ47C9+JwuqDno bart@t20 (ED25519)   |
 
@@ -84,5 +85,20 @@ The key's randomart image for `bart@e7250` is:
 |+*+ . .+o o =    |
 |o.      . .= .   |
 |         oo.o    |
++----[SHA256]-----+
+```
+
+The key's randomart image for `bart@gcs` is:
+```
++--[ED25519 256]--+
+|                 |
+|                 |
+|               .o|
+|           . +.o=|
+|        S . =o%*o|
+|         . o EO@=|
+|            BoO+B|
+|            o* B+|
+|           ...=oO|
 +----[SHA256]-----+
 ```
