@@ -1,8 +1,8 @@
-# My SSH keys
+# SSH Keys
 
 This GitHub repository contains my public SSH keys, currently in use.
 
-## All keys
+## All my SSH keys
 
 | Account    | Key file       | Fingerprint                                                                 |
 | ---------- | -------------- | --------------------------------------------------------------------------- |
