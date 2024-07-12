@@ -11,6 +11,12 @@ This GitHub repository contains my public SSH keys, currently in use.
 | bart@paris | bart-paris.pub | 256 SHA256:dreFMQBoUhsBq+y9Q/CV/RLM1p2zeun0FvsZsO9xh5U bart@paris (ED25519) |
 | bart@t20   | bart-t20.pub   | 256 SHA256:ii8ke6xz2OkiyjDPURqbk+Ar5Y/UvgZ47C9+JwuqDno bart@t20 (ED25519)   |
 
+## Authorise keys locally
+
+```
+cd ~/.ssh
+curl -s https://raw.githubusercontent.com/bartprokop/ssh-keys/main/bart-dell5000.pub >> authorized_keys
+```
 
 ## Verification of this repository
 
