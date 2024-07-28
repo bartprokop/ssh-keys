@@ -43,10 +43,20 @@ It is 2022. I will use the `ed25519` algorithm, which is both fast and secure.
 Its main strengths are its speed, its constant-time run time (and resistance against side-channel attacks), and its lack of nebulous hard-coded constants.
 "Ed25519 is an elliptic curve signature scheme that offers better security than ECDSA and DSA and good performance".
 
-Key generation:
+### Key generation:
+
+On most systems:
 
 ```bash
 $ ssh-keygen -t ed25519
+```
+
+On OpenWRT:
+
+```bash
+# mkdir ~/.ssh
+# dropbearkey -t ed25519 -f ~/.ssh/id_dropbear
+# dropbearkey -y -f ~/.ssh/id_dropbear
 ```
 
 Fingerprinting SSH key:
@@ -55,7 +65,7 @@ Fingerprinting SSH key:
 $ ssh-keygen -lf ~/.ssh/id_ed25519.pub
 ```
 
-Sending the key to remote server:
+### Sending the key to remote server:
 
 ```bash
 $ ssh-copy-id bart@remote-server.org
