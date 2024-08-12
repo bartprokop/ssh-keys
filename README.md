@@ -70,3 +70,12 @@ $ ssh-keygen -lf ~/.ssh/id_ed25519.pub
 ```bash
 $ ssh-copy-id bart@remote-server.org
 ```
+
+## Other SSH Commands
+
+Remove key from `~/.ssh/known_hosts`
+
+```bash
+ssh-keygen -R github.com
+```
+
