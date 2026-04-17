@@ -4,12 +4,13 @@ This GitHub repository contains my public SSH keys, currently in use.
 
 ## All my SSH keys
 
-| Account    | Key file       | Fingerprint                                                                 |
-| ---------- | -------------- | --------------------------------------------------------------------------- |
-| bart@e7250 | bart-e7250.pub | 256 SHA256:bJt9eJnLmiZwApHjysqkRWs41Csn8FZ9xvExAKsf4lQ bart@e7250 (ED25519) |
-| bart@gcs   | bart-gcs.pub   | 256 SHA256:1y3e7tFhHGf71f7OgVoxT74CbT5GMd52wyw22eQ++QM bart@gcs (ED25519)   |
-| bart@paris | bart-paris.pub | 256 SHA256:dreFMQBoUhsBq+y9Q/CV/RLM1p2zeun0FvsZsO9xh5U bart@paris (ED25519) |
-| bart@t20   | bart-t20.pub   | 256 SHA256:ii8ke6xz2OkiyjDPURqbk+Ar5Y/UvgZ47C9+JwuqDno bart@t20 (ED25519)   |
+| Account     | Key file        | Fingerprint |
+| ----------- | --------------- | ----------- |
+| asia@macneo | asia-macneo.pub | 256 SHA256:lCsXe3eJ9nNLAmNeZmG7d59meKluG1ymcQArdttDGWw joanna@fizjoterapia.uk (ED25519) |
+| bart@e7250  | bart-e7250.pub  | 256 SHA256:bJt9eJnLmiZwApHjysqkRWs41Csn8FZ9xvExAKsf4lQ bart@e7250 (ED25519) |
+| bart@gcs    | bart-gcs.pub    | 256 SHA256:1y3e7tFhHGf71f7OgVoxT74CbT5GMd52wyw22eQ++QM bart@gcs (ED25519) |
+| bart@paris  | bart-paris.pub  | 256 SHA256:dreFMQBoUhsBq+y9Q/CV/RLM1p2zeun0FvsZsO9xh5U bart@paris (ED25519) |
+| bart@t20    | bart-t20.pub    | 256 SHA256:ii8ke6xz2OkiyjDPURqbk+Ar5Y/UvgZ47C9+JwuqDno bart@t20 (ED25519) |
 
 ## Authorise keys locally
 
