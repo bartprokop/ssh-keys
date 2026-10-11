@@ -49,6 +49,10 @@ Its main strengths are its speed, its constant-time run time (and resistance aga
 On most systems:
 
 ```bash
+# As of late 2026, I switching to this "best practice":
+$ ssh-keygen -t ed25519 -a 100 -C "user@workstation"
+
+# Previously:
 $ ssh-keygen -t ed25519
 ```
 
